@@ -1,5 +1,6 @@
 namespace ObjectsInteractable
 {
+	// Me ignore..
     public interface IObjectsInteractable
     {
         ObjectsInteractableScript OI_OnGetObject();
