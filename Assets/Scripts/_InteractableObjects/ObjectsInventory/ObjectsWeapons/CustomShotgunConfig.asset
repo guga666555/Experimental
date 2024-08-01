@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6884fb8051d86fd4f939baac0f9ece47, type: 3}
+  m_Name: CustomShotgunConfig
+  m_EditorClassIdentifier: 
+  weaponHolderKey: CustomShotgun
+  weaponCategory: 2
+  bulletDamage: 5
+  magazineSize: 80
+  maxAmmoSize: 800
+  rateOfFire: 600
+  reloadTime: 3
+  maxWeaponRange: 100
+  isWeaponAutomatic: 0
+  bulletsPerBurst: 8
+  timeBetweenBursts: 0
+  bulletSpread: 0.05
+  recoilX: -10
+  recoilY: 1.5
+  recoilZ: -0.08
+  returnSpeed: 6
+  snappiness: 60
+  projectileObject: {fileID: 9021855816755689261, guid: 721596039d83c184c87be2737808ba69,
+    type: 3}
+  projectileSpeed: 400
+  projectileGravity: 0
+  weaponSoundFire:
+  - {fileID: 8300000, guid: 0584668f30b50f24ca59a5e44f3b843c, type: 3}
+  - {fileID: 8300000, guid: afd4ae27c52edad498464bd090ae7f6d, type: 3}
+  - {fileID: 8300000, guid: 889db2e3f8fbd094fa2b79eeae1de18b, type: 3}
+  weaponSoundReload:
+  - {fileID: 8300000, guid: d1737faa43a3edf4f864705bbcbe9178, type: 3}
+  weaponSoundReady: []

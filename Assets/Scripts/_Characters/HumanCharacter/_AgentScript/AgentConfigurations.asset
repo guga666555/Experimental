@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8543a591f371bc449c24e0cfb5a532c, type: 3}
+  m_Name: AgentConfigurations
+  m_EditorClassIdentifier: 
+  agentMaxHealth: 500
+  fovSize: 135
+  detectionRange: 25
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  obstructionLayer:
+    serializedVersion: 2
+    m_Bits: 2943
+  MemorySpan: 35
+  DistanceWeight: 4
+  AngleWeight: 5
+  AgeWeight: 2
